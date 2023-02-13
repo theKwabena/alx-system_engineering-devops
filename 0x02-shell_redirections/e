@@ -1,2 +1,4 @@
 #!/bin/bash
-echo "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" | ./tg $1
+echo "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" | ./tg $1 
+expect "*assword"
+send 
