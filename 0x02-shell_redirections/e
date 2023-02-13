@@ -4,4 +4,4 @@ set timeout 20
 set commit [lindex $argv 0]
 spawn "./tg" $commit
 expect "Password for 'https://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@github.com'"
-send "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"
+send "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i\r"
